@@ -1,0 +1,11 @@
+def DenseNet121():
+    return DenseNet(Bottleneck, [6,12,24,16], 32)
+
+def DenseNet169():
+    return DenseNet([6,12,32,32], 32)
+
+def DenseNet201():
+    return DenseNet(Bottleneck, [6,12,48,32], 32)
+
+def DenseNet161():
+    return DenseNet(Bottleneck, [6,12,36,24], 48)
